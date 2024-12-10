@@ -1,12 +1,10 @@
-
-import ValorProducto from '@/components/ValorProducto'
+import ProductoMarca from '@/components/ProdutoMarca'
 import React from 'react'
 
 export default function page() {
   return (
     <div>
-
-    <ValorProducto></ValorProducto>
+      <ProductoMarca></ProductoMarca>
     </div>
   )
 }

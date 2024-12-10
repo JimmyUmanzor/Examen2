@@ -1,22 +1,22 @@
 import axios from 'axios'
 
-export const getSumaSalario = async ()=>{
+export const getPromedioCategoria = async ()=>{
 
-    const response = await axios.get('http://localhost:5000/suma-salario-departamento');
+    const response = await axios.get('http://localhost:5000/promedio-valor-categoria');
     return response.data
 
 }
 
-export const getProductoMoneda = async ()=>{
+export const getProductoMarca = async ()=>{
 
-    const response = await axios.get(`http://localhost:5000/contar-productos-moneda`);
+    const response = await axios.get(`http://localhost:5000/cantidad-productos-marca`);
     return response.data
 
 }
 
-export const getValorProducto = async ()=>{
+export const getValorProductoCategoria = async ()=>{
 
-    const response = await axios.get(`http://localhost:5000/valor-producto-tipo`);
+    const response = await axios.get(`http://localhost:5000/valor-total-categoria`);
     return response.data
 
 }
